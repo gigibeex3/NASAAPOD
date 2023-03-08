@@ -1,4 +1,4 @@
-﻿(![NASA APOD](nasapotd.png))
+﻿![NASA APOD](nasapotd.png)
 # NASA APOD
 Application that shows the "Astronomy Photo of the Day" along with a description using NASA's API.
 ## Hosted Application
