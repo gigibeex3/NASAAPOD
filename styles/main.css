@@ -1,58 +1,149 @@
 /* RESET */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-html, body {
+
+html,
+body {
     font-size: 62.5%;
-	letter-spacing: 0.06em;
+    letter-spacing: 0.06em;
     font-family: 'Times New Roman', Times, serif;
 }
+
 a {
-	text-decoration: none;
-	letter-spacing: 0.06em;
+    text-decoration: none;
+    letter-spacing: 0.06em;
 }
 
 /* PADDING - body */
@@ -62,6 +153,7 @@ body {
     background-size: cover;
     color: whitesmoke;
 }
+
 .apod {
     padding: 0 5%;
 }
@@ -78,17 +170,21 @@ body {
     font-size: 5em;
     font-weight: bold;
 }
+
 .header-date h2 {
     font-size: 3em;
 }
 
-.calendar, .apod-button {
+.calendar,
+.apod-button {
     vertical-align: bottom;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .calendar {
     font-size: 3.35em;
 }
+
 .apod-button {
     font-size: 3.35em;
 }
@@ -108,6 +204,7 @@ body {
     margin: 4rem 2rem;
     visibility: hidden;
 }
+
 #vid {
     display: none;
     width: 50%;
@@ -121,11 +218,13 @@ body {
     z-index: 2;
     margin: 4rem;
 }
+
 .apod-name {
     visibility: hidden;
     margin: 0 1rem;
     font-size: 4em;
 }
+
 .apod-explanation {
     line-height: 1.5;
     font-size: 3em;
@@ -145,23 +244,33 @@ body {
     .container {
         display: block;
     }
-    .potd, .apod-description, iframe {
+
+    .potd,
+    .apod-description,
+    iframe {
         width: 100%;
         max-width: 100%;
         margin: 2rem;
     }
+
     .potd {
         padding: 2rem;
         border: none;
     }
-    .apod-name {
-        text-align: center;
-        padding: 2rem;
-    }
+
+    .apod-name,
     .apod-explanation {
         text-align: center;
+    }
+
+    .apod-name {
+        padding: 2rem;
+    }
+
+    .apod-explanation {
         padding: 3rem;
     }
+
     .header-date {
         padding: 2rem;
     }
@@ -171,19 +280,21 @@ body {
     .container {
         display: block;
     }
-    .potd, .apod-description, iframe {
+
+    .potd,
+    .apod-description,
+    iframe {
         width: 100%;
         max-width: 100%;
         margin: 2%;
     }
+
     .potd {
         padding: 2%;
         border: none;
     }
-    .apod-name {
-        text-align: center;
-        padding: 2%;
-    }
+
+    .apod-name,
     .apod-explanation {
         text-align: center;
         padding: 2%;
